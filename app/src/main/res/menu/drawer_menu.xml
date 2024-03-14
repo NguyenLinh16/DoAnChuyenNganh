@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/rankcustomer"
+            android:title="Quản Lý" />
+    </group>
+    <group>
+        <item android:title="Học Tập">
+            <menu>
+            <item android:id="@+id/nav_search"
+                    android:icon="@drawable/ic_search"
+                    android:title="Search offline"/>
+            <item android:id="@+id/nav_vocabulary"
+                android:icon="@drawable/vocabulary"
+                android:title="Từ Vựng"/>
+
+            <item android:id="@+id/nav_learnalphabet"
+                android:icon="@drawable/ic_alphabet"
+                android:title="Học Alphabet"/>
+
+            <item android:id="@+id/nav_test"
+                android:icon="@drawable/ic_star"
+                android:title="Trắc Nghiệm"/>
+            <item android:title="Các Thì Trong Tiếng Anh"
+                android:id="@+id/nav_cacThiTA"
+                android:icon="@drawable/ic_spacefill"/>
+            <item android:title="Ngữ Pháp Tiếng Anh"
+                android:id="@+id/nav_NguPhapTA"
+                android:icon="@drawable/ic_order"/>
+            <item android:title="Luyện Nghe"
+                android:id="@+id/LuyenNghe"
+                android:icon="@drawable/ic_hearing"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+            <item android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="Setting"/>
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="logout"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.PdfViewNguPhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailNguPhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NguPhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ThongTinTaiKhoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LuyenNgheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PdfViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailCacThiTAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CacThiTrongTAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taikhoan.RegisterActivity"
+            android:exported="false" />
+        <activity android:name=".activity.SelectLevelActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".activity.TestDoneActivity" />
+        <activity android:name=".activity.ScreenSlidePagerActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".taikhoan.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.VocabularyItemActivity"
+            android:parentActivityName=".activity.MainActivity" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider338898916828124"
+            android:exported="true" />
+
+        <service android:name=".notify.MyService" />
+        <service android:name=".notify.MyRecevice" />
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailCacThiTAActivity">
+
+    <TextView
+        android:id="@+id/tv_name_user"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="691dp"
+        android:text="@string/app_name"
+        android:textColor="#0F6570"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/detail_Title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="644dp"
+        android:textAlignment="center"
+        android:text="Thì Hiện Tại Đơn"
+        android:background="#C8078531"
+        android:textColor="#9AE4ED"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="647dp"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/detailDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="577dp"
+        android:gravity="left"
+        android:padding="20dp"
+        android:text="Description: "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+</RelativeLayout>

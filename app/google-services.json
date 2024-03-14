@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993387248051",
+    "project_id": "learn-english-2cff1",
+    "storage_bucket": "learn-english-2cff1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993387248051:android:25ebc65a347f469cb1f3c6",
+        "android_client_info": {
+          "package_name": "com.example.learnenglish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7-jfY0JOlscr6jL4OUI-2S6EHbs0_b6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
